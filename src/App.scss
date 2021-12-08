@@ -1,0 +1,101 @@
+
+* {
+  margin: 0px;
+}
+body {
+  overflow-x: hidden;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header {
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(87, 87, 87);
+}
+.ajuste {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  min-height: 100vh;
+  
+}
+.botoes {
+  padding-top: 20px;
+  display: flex;
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+}
+.num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 2px;
+  background-color: transparent;
+  &:active {
+    transition: all 1s;
+    background-color: aliceblue;
+  }
+}
+
+.voltar {
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  &:active {
+    transition: all 1s;
+    background-color: aliceblue;
+  }
+}
+.avancar {
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 5px;
+  &:active {
+    transition: all 1s;
+    background-color: aliceblue;
+  }
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+}
+footer {
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(87, 87, 87);
+}
+@media only screen and (max-width: 380px) {
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  /* .botoes {
+    
+  } */
+}
+@media only screen and (max-width: 420px) {
+  img {
+    width: 105px;
+    height: 105px;
+  }
+}
